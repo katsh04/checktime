@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@holiday-jp/holiday_jp": "^2.3.0",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.33",
+    "util": "^0.12.4",
+    "xmldom": "^0.6.0"
+  },
+  "scripts": {
+    "start": "node checktime.js"
+  },
+  "name": "checktime",
+  "version": "1.0.0",
+  "description": "checks if this is operational hours",
+  "main": "checktime.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katsh04/checktime.git"
+  },
+  "author": "shunsuke katakura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katsh04/checktime/issues"
+  },
+  "homepage": "https://github.com/katsh04/checktime#readme"
+}
